@@ -93,6 +93,12 @@
 		  " - $" + $( "#slider-range" ).slider( "values", 1 ) );
   	});
 	
+	 // slick slider
+	 
+	 $('.slick-box').slick({
+		 autoplay: true,
+  autoplaySpeed: 2000,
+	 });
 	 
 	 // ajax
 	 /*$("#form-main").submit(function() {
